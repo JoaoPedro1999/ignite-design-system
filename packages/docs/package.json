@@ -29,6 +29,8 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "1.0.0",
+    "@ignite-ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"
   }
 }

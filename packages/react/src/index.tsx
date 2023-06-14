@@ -1,31 +1,13 @@
-import type { ComponentProps } from 'react'
+export * from "./components/Button";
 
-import { styled } from './styles'
+export { Box } from "./components/Box";
+export type { BoxProps } from "./components/Box";
 
-export const Button = styled('button', {
-  fontFamily: '$default',
-  backgroundColor: '$ignite500',
-  borderRadius: '$sm',
-  border: 0,
-  fontWeight: '$bold',
-  color: '$white',
+export { Text } from "./components/Text";
+export type { TextProps } from "./components/Text";
 
-  variants: {
-    size: {
-      small: {
-        fontSize: 14,
-        padding: '$2 $4',
-      },
-      big: {
-        fontSize: 16,
-        padding: '$3 $6',
-      },
-    },
-  },
+export { Heading } from "./components/Heading";
+export type { HeadingProps } from "./components/Heading";
 
-  defaultVariants: {
-    size: 'small',
-  },
-})
-
-export type ButtonProps = ComponentProps<typeof Button>
+export { Avatar } from "./components/Avatar";
+export type { AvatarProps } from "./components/Avatar";

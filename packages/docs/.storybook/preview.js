@@ -9,6 +9,11 @@ const preview = {
         date: /Date$/,
       },
     },
+    docs: {
+      source: {
+        state: "open",
+      },
+    },
   },
 };
 

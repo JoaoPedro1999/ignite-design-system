@@ -6,7 +6,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react --clear",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
@@ -24,6 +24,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.8"
+    "@radix-ui/react-avatar": "^1.0.3",
+    "@stitches/react": "^1.2.8",
+    "phosphor-react": "^1.4.1"
   }
 }
