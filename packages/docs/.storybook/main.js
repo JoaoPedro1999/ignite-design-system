@@ -1,6 +1,7 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: [
+    "../src/pages/**/*.mdx",
     "../src/pages/**/*.stories.mdx",
     "../src/stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
@@ -8,7 +9,7 @@ const config = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    "@storybook/addon-docs",
+    "@storybook/addon-a11y",
   ],
   framework: {
     name: "@storybook/react-vite",
@@ -16,6 +17,7 @@ const config = {
   },
   docs: {
     autodocs: "tag",
+    defaultName: "Documentation",
   },
 };
 export default config;
