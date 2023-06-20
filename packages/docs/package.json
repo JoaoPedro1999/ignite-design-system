@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@buma-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,10 +26,10 @@
     "storybook": "^7.0.12"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "1.0.0",
-    "@ignite-ui/ts-config": "*",
+    "@buma-ui/eslint-config": "1.0.0",
+    "@buma-ui/react-components": "*",
+    "@buma-ui/tokens": "1.0.0",
+    "@buma-ui/ts-config": "1.0.0",
     "@storybook/addon-a11y": "^7.0.22",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"

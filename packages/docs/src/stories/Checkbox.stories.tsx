@@ -1,6 +1,6 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
-import { Box, Text, Checkbox, CheckboxProps } from "@ignite-ui/react";
+import { Box, Text, Checkbox, CheckboxProps } from "@buma-ui/react-components";
 
 export default {
   title: "Form/Checkbox",

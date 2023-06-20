@@ -1,6 +1,6 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
-import { Box, MultiStep, MultiStepProps } from "@ignite-ui/react";
+import { Box, MultiStep, MultiStepProps } from "@buma-ui/react-components";
 
 export default {
   title: "Form/Multi Step",

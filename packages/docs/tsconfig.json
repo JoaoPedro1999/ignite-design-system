@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react"
   },
-  "extends": "@ignite-ui/ts-config/react.json",
+  "extends": "@buma-ui/ts-config/react.json",
   "include": [
     "src"
   ]
