@@ -1,5 +1,11 @@
 # @buma-ui/react-components
 
+## 2.0.1
+
+### Patch Changes
+
+- 08e6a64: Add option to pass references to TextInput and adjust some styles
+
 ## 2.0.0
 
 ### Major Changes
