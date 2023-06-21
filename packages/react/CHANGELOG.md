@@ -1,5 +1,11 @@
 # @buma-ui/react-components
 
+## 2.0.3
+
+### Patch Changes
+
+- Change input prop type
+
 ## 2.0.2
 
 ### Patch Changes
