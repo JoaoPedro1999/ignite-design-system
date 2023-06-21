@@ -9,7 +9,7 @@ export const TextInputContainer = styled("div", {
   alignItems: "center",
 
   variants: {
-    size: {
+    scale: {
       sm: {
         padding: "$2 $3",
       },
@@ -29,7 +29,7 @@ export const TextInputContainer = styled("div", {
   },
 
   defaultVariants: {
-    size: "md",
+    scale: "md",
   },
 });
 

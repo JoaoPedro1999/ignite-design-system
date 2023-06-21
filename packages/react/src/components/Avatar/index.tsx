@@ -1,4 +1,4 @@
-import { FiUser } from "react-icons/fi";
+import { User } from "phosphor-react";
 import { ComponentProps } from "react";
 import { AvatarContainer, AvatarImage, AvatarFallback } from "./styles";
 
@@ -10,7 +10,7 @@ export function Avatar(props: AvatarProps) {
       <AvatarImage {...props} />
 
       <AvatarFallback delayMs={600}>
-        <FiUser />
+        <User />
       </AvatarFallback>
     </AvatarContainer>
   );

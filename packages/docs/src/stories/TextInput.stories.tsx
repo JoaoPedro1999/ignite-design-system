@@ -25,6 +25,14 @@ export default {
       );
     },
   ],
+  argTypes: {
+    scale: {
+      options: ["sm", "md"],
+      control: {
+        type: "inline-radio",
+      },
+    },
+  }
 } as Meta<TextInputProps>;
 
 export const Primary: StoryObj<TextInputProps> = {

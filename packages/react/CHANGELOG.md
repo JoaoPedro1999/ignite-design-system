@@ -1,5 +1,11 @@
 # @buma-ui/react-components
 
+## 2.0.2
+
+### Patch Changes
+
+- Change icons package
+
 ## 2.0.1
 
 ### Patch Changes
